@@ -149,7 +149,7 @@ class _HomePageState extends State<HomePage> {
           const SizedBox(height: 16),
           GridView.builder(
             shrinkWrap: true,
-            physics: const Never ScrollableScrollPhysics(),
+            physics: const NeverScrollableScrollPhysics(),
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
               childAspectRatio: 0.75,

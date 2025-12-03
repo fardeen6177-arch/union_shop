@@ -9,7 +9,7 @@ import '../widgets/footer.dart';
 import '../config/theme.dart';
 
 class PersonalisePage extends StatefulWidget {
-  const PersonalisePage({super.key};
+  const PersonalisePage({super.key});
 
   @override
   State<PersonalisePage> createState() => _PersonalisePageState();

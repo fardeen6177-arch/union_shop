@@ -80,7 +80,7 @@ class AccountPage extends StatelessWidget {
                                   style: AppTheme.bodyLarge.copyWith(color: Colors.grey),
                                 ),
                                 const SizedBox(height: 8),
-                                Text Button(
+                                TextButton(
                                   onPressed: () => context.go('/'),
                                   child: const Text('Start Shopping'),
                                 ),

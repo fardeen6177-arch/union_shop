@@ -19,7 +19,7 @@ class CartPage extends StatelessWidget {
 
     return Scaffold(
       appBar: const Navbar(),
-      body: Single ChildScrollView(
+      body: SingleChildScrollView(
         child: Column(
           children: [
             Padding(
