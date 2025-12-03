@@ -97,7 +97,7 @@ class AppTheme {
           borderRadius: BorderRadius.circular(20),
         ),
       ),
-      dividerColor: textLight,
+      //dividerColor: textLight,
       fontFamily: 'Roboto',
     );
   }
