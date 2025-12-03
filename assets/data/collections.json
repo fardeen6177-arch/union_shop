@@ -1,0 +1,44 @@
+[
+  {
+    "id": "col_1",
+    "name": "New Arrivals",
+    "slug": "new-arrivals",
+    "description": "Check out our latest products and trending styles",
+    "image": "assets/images/collection_new.jpg"
+  },
+  {
+    "id": "col_2",
+    "name": "Best Sellers",
+    "slug": "best-sellers",
+    "description": "Our most popular products loved by customers",
+    "image": "assets/images/collection_bestsellers.jpg"
+  },
+  {
+    "id": "col_3",
+    "name": "Sale",
+    "slug": "sale",
+    "description": "Limited time offers and exclusive discounts",
+    "image": "assets/images/collection_sale.jpg"
+  },
+  {
+    "id": "col_4",
+    "name": "T-Shirts",
+    "slug": "t-shirts",
+    "description": "Comfortable and stylish t-shirts for every occasion",
+    "image": "assets/images/collection_tshirts.jpg"
+  },
+  {
+    "id": "col_5",
+    "name": "Hoodies",
+    "slug": "hoodies",
+    "description": "Cozy hoodies to keep you warm and fashionable",
+    "image": "assets/images/collection_hoodies.jpg"
+  },
+  {
+    "id": "col_6",
+    "name": "Accessories",
+    "slug": "accessories",
+    "description": "Complete your look with our accessories collection",
+    "image": "assets/images/collection_accessories.jpg"
+  }
+]

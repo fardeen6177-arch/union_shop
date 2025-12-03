@@ -1,0 +1,568 @@
+[
+    {
+        "id": "prod_1",
+        "name": "Classic White T-Shirt",
+        "sku": "TS-WHT-001",
+        "description": "Premium cotton t-shirt with a comfortable fit. Perfect for everyday wear.",
+        "price": 24.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/tshirt_white.jpg",
+            "assets/images/tshirt_white_back.jpg"
+        ],
+        "tags": [
+            "casual",
+            "cotton",
+            "basics"
+        ],
+        "collectionId": "col_4",
+        "options": {
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "White"
+            ]
+        },
+        "stock": 50
+    },
+    {
+        "id": "prod_2",
+        "name": "Black Graphic T-Shirt",
+        "sku": "TS-BLK-002",
+        "description": "Trendy graphic print t-shirt made from soft cotton blend.",
+        "price": 29.99,
+        "salePrice": 24.99,
+        "images": [
+            "assets/images/tshirt_black.jpg"
+        ],
+        "tags": [
+            "graphic",
+            "trendy",
+            "casual"
+        ],
+        "collectionId": "col_1",
+        "options": {
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": [
+                "Black"
+            ]
+        },
+        "stock": 35
+    },
+    {
+        "id": "prod_3",
+        "name": "Navy Blue Hoodie",
+        "sku": "HD-NVY-001",
+        "description": "Cozy fleece hoodie with front pocket and adjustable drawstring.",
+        "price": 49.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/hoodie_navy.jpg",
+            "assets/images/hoodie_navy_side.jpg"
+        ],
+        "tags": [
+            "warm",
+            "comfortable",
+            "hoodie"
+        ],
+        "collectionId": "col_5",
+        "options": {
+            "size": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Navy"
+            ]
+        },
+        "stock": 28
+    },
+    {
+        "id": "prod_4",
+        "name": "Red Pullover Hoodie",
+        "sku": "HD-RED-002",
+        "description": "Vibrant red hoodie perfect for cool weather. Soft interior lining.",
+        "price": 54.99,
+        "salePrice": 44.99,
+        "images": [
+            "assets/images/hoodie_red.jpg"
+        ],
+        "tags": [
+            "warm",
+            "vibrant",
+            "bestseller"
+        ],
+        "collectionId": "col_2",
+        "options": {
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Red"
+            ]
+        },
+        "stock": 42
+    },
+    {
+        "id": "prod_5",
+        "name": "Grey Zip Hoodie",
+        "sku": "HD-GRY-003",
+        "description": "Versatile zip-up hoodie with side pockets. Great for layering.",
+        "price": 59.99,
+        "salePrice": 49.99,
+        "images": [
+            "assets/images/hoodie_grey.jpg"
+        ],
+        "tags": [
+            "zip",
+            "versatile",
+            "sale"
+        ],
+        "collectionId": "col_3",
+        "options": {
+            "size": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Grey"
+            ]
+        },
+        "stock": 30
+    },
+    {
+        "id": "prod_6",
+        "name": "Striped Long Sleeve Shirt",
+        "sku": "TS-STR-003",
+        "description": "Classic striped long sleeve shirt for a timeless look.",
+        "price": 34.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/shirt_striped.jpg"
+        ],
+        "tags": [
+            "classic",
+            "striped",
+            "longsleeve"
+        ],
+        "collectionId": "col_4",
+        "options": {
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Blue/White",
+                "Black/White"
+            ]
+        },
+        "stock": 45
+    },
+    {
+        "id": "prod_7",
+        "name": "Olive Green T-Shirt",
+        "sku": "TS-OLV-004",
+        "description": "Earth-toned t-shirt made from organic cotton. Eco-friendly choice.",
+        "price": 27.99,
+        "salePrice": 22.99,
+        "images": [
+            "assets/images/tshirt_olive.jpg"
+        ],
+        "tags": [
+            "eco",
+            "organic",
+            "sale"
+        ],
+        "collectionId": "col_3",
+        "options": {
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Olive"
+            ]
+        },
+        "stock": 38
+    },
+    {
+        "id": "prod_8",
+        "name": "Baseball Cap",
+        "sku": "ACC-CAP-001",
+        "description": "Adjustable baseball cap with embroidered logo. One size fits all.",
+        "price": 19.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/cap_black.jpg"
+        ],
+        "tags": [
+            "accessory",
+            "cap",
+            "adjustable"
+        ],
+        "collectionId": "col_6",
+        "options": {
+            "color": [
+                "Black",
+                "Navy",
+                "Red"
+            ]
+        },
+        "stock": 60
+    },
+    {
+        "id": "prod_9",
+        "name": "Leather Belt",
+        "sku": "ACC-BLT-001",
+        "description": "Genuine leather belt with classic buckle. Available in multiple sizes.",
+        "price": 39.99,
+        "salePrice": 29.99,
+        "images": [
+            "assets/images/belt_brown.jpg"
+        ],
+        "tags": [
+            "leather",
+            "accessory",
+            "sale"
+        ],
+        "collectionId": "col_3",
+        "options": {
+            "size": [
+                "32",
+                "34",
+                "36",
+                "38"
+            ],
+            "color": [
+                "Brown",
+                "Black"
+            ]
+        },
+        "stock": 25
+    },
+    {
+        "id": "prod_10",
+        "name": "Sports Socks 3-Pack",
+        "sku": "ACC-SCK-001",
+        "description": "Comfortable athletic socks sold in packs of 3. Moisture-wicking fabric.",
+        "price": 14.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/socks_pack.jpg"
+        ],
+        "tags": [
+            "socks",
+            "athletic",
+            "pack"
+        ],
+        "collectionId": "col_6",
+        "options": {
+            "size": [
+                "S",
+                "M",
+                "L"
+            ],
+            "color": [
+                "White",
+                "Black",
+                "Grey"
+            ]
+        },
+        "stock": 75
+    },
+    {
+        "id": "prod_11",
+        "name": "Denim Jacket",
+        "sku": "JK-DNM-001",
+        "description": "Classic denim jacket with button closure. A wardrobe essential.",
+        "price": 79.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/jacket_denim.jpg"
+        ],
+        "tags": [
+            "denim",
+            "classic",
+            "jacket"
+        ],
+        "collectionId": "col_1",
+        "options": {
+            "size": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Blue"
+            ]
+        },
+        "stock": 20
+    },
+    {
+        "id": "prod_12",
+        "name": "Premium Cotton Polo",
+        "sku": "PL-CTN-001",
+        "description": "Elegant polo shirt made from premium cotton. Perfect for smart casual.",
+        "price": 44.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/polo_white.jpg"
+        ],
+        "tags": [
+            "polo",
+            "premium",
+            "smartcasual"
+        ],
+        "collectionId": "col_2",
+        "options": {
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "White",
+                "Navy",
+                "Grey"
+            ]
+        },
+        "stock": 32
+    },
+    {
+        "id": "prod_13",
+        "name": "Vintage Graphic Tee",
+        "sku": "TS-VNT-005",
+        "description": "Retro-inspired graphic t-shirt with vintage wash. Limited edition.",
+        "price": 32.99,
+        "salePrice": 27.99,
+        "images": [
+            "assets/images/tshirt_vintage.jpg"
+        ],
+        "tags": [
+            "vintage",
+            "graphic",
+            "limited"
+        ],
+        "collectionId": "col_1",
+        "options": {
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Vintage Black"
+            ]
+        },
+        "stock": 18
+    },
+    {
+        "id": "prod_14",
+        "name": "Canvas Backpack",
+        "sku": "ACC-BP-001",
+        "description": "Durable canvas backpack with multiple compartments. Ideal for daily use.",
+        "price": 49.99,
+        "salePrice": 39.99,
+        "images": [
+            "assets/images/backpack_canvas.jpg"
+        ],
+        "tags": [
+            "backpack",
+            "canvas",
+            "sale"
+        ],
+        "collectionId": "col_3",
+        "options": {
+            "color": [
+                "Khaki",
+                "Navy",
+                "Black"
+            ]
+        },
+        "stock": 22
+    },
+    {
+        "id": "prod_15",
+        "name": "Crew Neck Sweatshirt",
+        "sku": "SW-CRW-001",
+        "description": "Comfortable crew neck sweatshirt in heavyweight cotton blend.",
+        "price": 42.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/sweatshirt_grey.jpg"
+        ],
+        "tags": [
+            "sweatshirt",
+            "comfortable",
+            "casual"
+        ],
+        "collectionId": "col_5",
+        "options": {
+            "size": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": [
+                "Grey",
+                "Black",
+                "Navy"
+            ]
+        },
+        "stock": 40
+    },
+    {
+        "id": "prod_16",
+        "name": "Wireless Earbuds",
+        "sku": "ACC-EB-001",
+        "description": "Premium wireless earbuds with noise cancellation. 24-hour battery life.",
+        "price": 89.99,
+        "salePrice": 74.99,
+        "images": [
+            "assets/images/earbuds_black.jpg"
+        ],
+        "tags": [
+            "tech",
+            "wireless",
+            "bestseller"
+        ],
+        "collectionId": "col_2",
+        "options": {
+            "color": [
+                "Black",
+                "White"
+            ]
+        },
+        "stock": 15
+    },
+    {
+        "id": "prod_17",
+        "name": "Sunglasses",
+        "sku": "ACC-SG-001",
+        "description": "Stylish sunglasses with UV protection. Lightweight frame.",
+        "price": 34.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/sunglasses_black.jpg"
+        ],
+        "tags": [
+            "sunglasses",
+            "accessory",
+            "uv"
+        ],
+        "collectionId": "col_6",
+        "options": {
+            "color": [
+                "Black",
+                "Tortoise",
+                "Blue"
+            ]
+        },
+        "stock": 28
+    },
+    {
+        "id": "prod_18",
+        "name": "V-Neck T-Shirt",
+        "sku": "TS-VNK-006",
+        "description": "Classic v-neck t-shirt in soft cotton. Versatile wardrobe staple.",
+        "price": 22.99,
+        "salePrice": 18.99,
+        "images": [
+            "assets/images/tshirt_vneck.jpg"
+        ],
+        "tags": [
+            "vneck",
+            "basic",
+            "sale"
+        ],
+        "collectionId": "col_3",
+        "options": {
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "White",
+                "Black",
+                "Grey"
+            ]
+        },
+        "stock": 55
+    },
+    {
+        "id": "prod_19",
+        "name": "Camo Print Hoodie",
+        "sku": "HD-CMO-004",
+        "description": "Trendy camouflage print hoodie. Bold and stylish statement piece.",
+        "price": 52.99,
+        "salePrice": null,
+        "images": [
+            "assets/images/hoodie_camo.jpg"
+        ],
+        "tags": [
+            "camo",
+            "trendy",
+            "hoodie"
+        ],
+        "collectionId": "col_1",
+        "options": {
+            "size": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Camo Green"
+            ]
+        },
+        "stock": 24
+    },
+    {
+        "id": "prod_20",
+        "name": "Watch",
+        "sku": "ACC-WCH-001",
+        "description": "Minimalist analog watch with leather strap. Water resistant.",
+        "price": 99.99,
+        "salePrice": 79.99,
+        "images": [
+            "assets/images/watch_leather.jpg"
+        ],
+        "tags": [
+            "watch",
+            "minimalist",
+            "sale"
+        ],
+        "collectionId": "col_2",
+        "options": {
+            "color": [
+                "Black",
+                "Brown"
+            ]
+        },
+        "stock": 12
+    }
+]
