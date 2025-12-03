@@ -8,6 +8,11 @@ void main() {
     late CartService cartService;
 
     setUp(() {
+<<<<<<< HEAD
+=======
+      TestWidgetsFlutterBinding.ensureInitialized();
+      SharedPreferences.setMockInitialValues({});
+>>>>>>> 428a6df (updated images final code)
       cartService = CartService();
     });
 

@@ -1,0 +1,71 @@
+00:00 +0: loading E:/Downloads/A3_Files/flutter_application_1/test/repositories/order_repository_test.dart
+00:00 +0: E:/Downloads/A3_Files/flutter_application_1/test/repositories/order_repository_test.dart: OrderRepository initial quantity should be 0
+00:00 +1: E:/Downloads/A3_Files/flutter_application_1/test/repositories/order_repository_test.dart: OrderRepository increment should increase quantity by 1
+00:00 +2: E:/Downloads/A3_Files/flutter_application_1/test/repositories/order_repository_test.dart: OrderRepository decrement should decrease quantity by 1
+00:00 +3: E:/Downloads/A3_Files/flutter_application_1/test/repositories/order_repository_test.dart: OrderRepository quantity should not exceed maxQuantity
+00:00 +4: E:/Downloads/A3_Files/flutter_application_1/test/repositories/order_repository_test.dart: OrderRepository quantity should not go below 0
+00:00 +5: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Cart starts empty
+00:00 +6: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Add item to cart increases count
+00:00 +6 -1: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Add item to cart increases count [E]
+  Exception: Failed to save cart: Binding has not yet been initialized.
+  The "instance" getter on the ServicesBinding binding mixin is only available once that binding has been initialized.
+  Typically, this is done by calling "WidgetsFlutterBinding.ensureInitialized()" or "runApp()" (the latter calls the former). Typically this call is done in the "void main()" method. The "ensureInitialized" method is idempotent; calling it multiple times is not harmful. After calling that method, the "instance" getter will return the binding.
+  In a test, one can call "TestWidgetsFlutterBinding.ensureInitialized()" as the first line in the test's "main()" method to initialize the binding.
+  If ServicesBinding is a custom binding mixin, there must also be a custom binding class, like WidgetsFlutterBinding, but that mixes in the selected binding, and that is the class that must be constructed before using the "instance" getter.
+  package:flutter_application_1/services/cart_service.dart 55:7  CartService.saveCart
+  
+00:00 +6 -1: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Subtotal calculates correctly
+00:00 +6 -2: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Subtotal calculates correctly [E]
+  Exception: Failed to save cart: Binding has not yet been initialized.
+  The "instance" getter on the ServicesBinding binding mixin is only available once that binding has been initialized.
+  Typically, this is done by calling "WidgetsFlutterBinding.ensureInitialized()" or "runApp()" (the latter calls the former). Typically this call is done in the "void main()" method. The "ensureInitialized" method is idempotent; calling it multiple times is not harmful. After calling that method, the "instance" getter will return the binding.
+  In a test, one can call "TestWidgetsFlutterBinding.ensureInitialized()" as the first line in the test's "main()" method to initialize the binding.
+  If ServicesBinding is a custom binding mixin, there must also be a custom binding class, like WidgetsFlutterBinding, but that mixes in the selected binding, and that is the class that must be constructed before using the "instance" getter.
+  package:flutter_application_1/services/cart_service.dart 55:7  CartService.saveCart
+  
+00:00 +6 -2: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Tax calculates correctly at 10%
+00:00 +6 -3: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Tax calculates correctly at 10% [E]
+  Exception: Failed to save cart: Binding has not yet been initialized.
+  The "instance" getter on the ServicesBinding binding mixin is only available once that binding has been initialized.
+  Typically, this is done by calling "WidgetsFlutterBinding.ensureInitialized()" or "runApp()" (the latter calls the former). Typically this call is done in the "void main()" method. The "ensureInitialized" method is idempotent; calling it multiple times is not harmful. After calling that method, the "instance" getter will return the binding.
+  In a test, one can call "TestWidgetsFlutterBinding.ensureInitialized()" as the first line in the test's "main()" method to initialize the binding.
+  If ServicesBinding is a custom binding mixin, there must also be a custom binding class, like WidgetsFlutterBinding, but that mixes in the selected binding, and that is the class that must be constructed before using the "instance" getter.
+  package:flutter_application_1/services/cart_service.dart 55:7  CartService.saveCart
+  
+00:00 +6 -3: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Remove item from cart
+00:00 +6 -4: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Remove item from cart [E]
+  Exception: Failed to save cart: Binding has not yet been initialized.
+  The "instance" getter on the ServicesBinding binding mixin is only available once that binding has been initialized.
+  Typically, this is done by calling "WidgetsFlutterBinding.ensureInitialized()" or "runApp()" (the latter calls the former). Typically this call is done in the "void main()" method. The "ensureInitialized" method is idempotent; calling it multiple times is not harmful. After calling that method, the "instance" getter will return the binding.
+  In a test, one can call "TestWidgetsFlutterBinding.ensureInitialized()" as the first line in the test's "main()" method to initialize the binding.
+  If ServicesBinding is a custom binding mixin, there must also be a custom binding class, like WidgetsFlutterBinding, but that mixes in the selected binding, and that is the class that must be constructed before using the "instance" getter.
+  package:flutter_application_1/services/cart_service.dart 55:7  CartService.saveCart
+  
+00:00 +6 -4: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Update item quantity
+00:00 +6 -5: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Update item quantity [E]
+  Exception: Failed to save cart: Binding has not yet been initialized.
+  The "instance" getter on the ServicesBinding binding mixin is only available once that binding has been initialized.
+  Typically, this is done by calling "WidgetsFlutterBinding.ensureInitialized()" or "runApp()" (the latter calls the former). Typically this call is done in the "void main()" method. The "ensureInitialized" method is idempotent; calling it multiple times is not harmful. After calling that method, the "instance" getter will return the binding.
+  In a test, one can call "TestWidgetsFlutterBinding.ensureInitialized()" as the first line in the test's "main()" method to initialize the binding.
+  If ServicesBinding is a custom binding mixin, there must also be a custom binding class, like WidgetsFlutterBinding, but that mixes in the selected binding, and that is the class that must be constructed before using the "instance" getter.
+  package:flutter_application_1/services/cart_service.dart 55:7  CartService.saveCart
+  
+00:00 +6 -5: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Clear cart removes all items
+00:00 +6 -6: E:/Downloads/A3_Files/flutter_application_1/test/unit/cart_service_test.dart: CartService Tests Clear cart removes all items [E]
+  Exception: Failed to save cart: Binding has not yet been initialized.
+  The "instance" getter on the ServicesBinding binding mixin is only available once that binding has been initialized.
+  Typically, this is done by calling "WidgetsFlutterBinding.ensureInitialized()" or "runApp()" (the latter calls the former). Typically this call is done in the "void main()" method. The "ensureInitialized" method is idempotent; calling it multiple times is not harmful. After calling that method, the "instance" getter will return the binding.
+  In a test, one can call "TestWidgetsFlutterBinding.ensureInitialized()" as the first line in the test's "main()" method to initialize the binding.
+  If ServicesBinding is a custom binding mixin, there must also be a custom binding class, like WidgetsFlutterBinding, but that mixes in the selected binding, and that is the class that must be constructed before using the "instance" getter.
+  package:flutter_application_1/services/cart_service.dart 55:7  CartService.saveCart
+  
+00:00 +6 -6: E:/Downloads/A3_Files/flutter_application_1/test/unit/price_calculation_test.dart: Price Calculation Tests Tax rate is 10%
+00:00 +7 -6: E:/Downloads/A3_Files/flutter_application_1/test/unit/price_calculation_test.dart: Price Calculation Tests Calculate tax correctly
+00:00 +8 -6: E:/Downloads/A3_Files/flutter_application_1/test/unit/price_calculation_test.dart: Price Calculation Tests Calculate total with tax
+00:00 +9 -6: E:/Downloads/A3_Files/flutter_application_1/test/unit/price_calculation_test.dart: Price Calculation Tests Calculate tax for zero subtotal
+00:00 +10 -6: E:/Downloads/A3_Files/flutter_application_1/test/unit/price_calculation_test.dart: Price Calculation Tests Calculate tax for decimal subtotal
+00:00 +11 -6: E:/Downloads/A3_Files/flutter_application_1/test/unit/price_calculation_test.dart: Price Calculation Tests Multiple items subtotal calculation
+00:00 +12 -6: E:/Downloads/A3_Files/flutter_application_1/test/unit/price_calculation_test.dart: Price Calculation Tests Sale price calculation
+00:00 +13 -6: E:/Downloads/A3_Files/flutter_application_1/test/unit/price_calculation_test.dart: Price Calculation Tests Max cart quantity limit
+00:00 +14 -6: E:/Downloads/A3_Files/flutter_application_1/test/widget_test.dart: App starts and displays homepage
+00:01 +15 -6: Some tests failed.
