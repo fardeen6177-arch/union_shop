@@ -86,14 +86,8 @@ class AppTheme {
         ),
         contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       ),
-      cardTheme: CardTheme(
-        color: surfaceColor,
-        elevation: 2,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
-        margin: const EdgeInsets.all(8),
-      ),
+      // Card theme uses Material 3 defaults
+      dividerColor: textLight,
       chipTheme: ChipThemeData(
         backgroundColor: backgroundColor,
         selectedColor: accentColor,
