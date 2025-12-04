@@ -30,6 +30,7 @@ class CartItemWidget extends StatelessWidget {
                   ? Image.asset(
                       item.productImage,
                       fit: BoxFit.cover,
+                      filterQuality: FilterQuality.high,
                       errorBuilder: (context, error, stackTrace) {
                         return const Icon(Icons.image, color: Colors.grey);
                       },

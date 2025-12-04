@@ -1,0 +1,8 @@
+Analyzing final union_shop...                                   
+
+   info - Don't use 'BuildContext's across async gaps - lib\pages\checkout_page.dart:31:9 - use_build_context_synchronously
+warning - Unused import: 'package:uuid/uuid.dart' - lib\pages\personalise_page.dart:4:8 - unused_import
+warning - Unused import: '../models/cart_item.dart' - lib\pages\personalise_page.dart:6:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\cart_service.dart:66:7 - avoid_print
+
+4 issues found. (ran in 1.2s)

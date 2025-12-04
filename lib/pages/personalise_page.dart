@@ -1,9 +1,7 @@
 // lib/pages/personalise_page.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:uuid/uuid.dart';
 import '../providers/cart_provider.dart';
-import '../models/cart_item.dart';
 import '../widgets/navbar.dart';
 import '../widgets/footer.dart';
 import '../config/theme.dart';
@@ -134,20 +132,6 @@ class _PersonalisePageState extends State<PersonalisePage> {
                       onPressed: _textController.text.isEmpty
                           ? null
                           : () async {
-                              final cartItem = CartItem(
-                                id: const Uuid().v4(),
-                                productId: 'custom_print',
-                                quantity: 1,
-                                selectedOptions: {
-                                  'text': _textController.text,
-                                  'font': _selectedFont,
-                                  'color': _selectedColor.toString(),
-                                },
-                                unitPrice: 34.99,
-                                productName: 'Custom Print - ${_textController.text}',
-                                productImage: '',
-                              );
-                              
                               try {
                                 await context.read<CartProvider>().addToCart(
                                   product: _createDummyProduct(),

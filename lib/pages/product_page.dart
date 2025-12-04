@@ -18,7 +18,7 @@ class ProductPage extends StatefulWidget {
 
 class _ProductPageState extends State<ProductPage> {
   int _quantity = 1;
-  Map<String, String> _selectedOptions = {};
+  final Map<String, String> _selectedOptions = {};
 
   @override
   Widget build(BuildContext context) {
@@ -60,6 +60,7 @@ class _ProductPageState extends State<ProductPage> {
                         ? Image.asset(
                             product.images[0],
                             fit: BoxFit.contain,
+                            filterQuality: FilterQuality.high,
                             errorBuilder: (context, error, stackTrace) {
                               return const Center(
                                 child: Icon(Icons.image, size: 100, color: Colors.grey),

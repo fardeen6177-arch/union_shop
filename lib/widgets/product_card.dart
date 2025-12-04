@@ -27,6 +27,7 @@ class ProductCard extends StatelessWidget {
                     ? Image.asset(
                         product.images[0],
                         fit: BoxFit.cover,
+                        filterQuality: FilterQuality.high,
                         errorBuilder: (context, error, stackTrace) {
                           return const Center(
                             child: Icon(Icons.image, size: 48, color: Colors.grey),

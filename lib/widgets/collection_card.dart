@@ -26,6 +26,7 @@ class CollectionCard extends StatelessWidget {
                 child: Image.asset(
                   collection.image,
                   fit: BoxFit.cover,
+                  filterQuality: FilterQuality.high,
                   errorBuilder: (context, error, stackTrace) {
                     return const Center(
                       child: Icon(Icons.collections, size: 48, color: Colors.grey),
