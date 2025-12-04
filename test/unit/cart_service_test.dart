@@ -1,18 +1,17 @@
-
-import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_application_1/services/cart_service.dart';
-import 'package:flutter_application_1/models/cart_item.dart';
+ // Unit tests for CartService
+ import 'package:flutter_test/flutter_test.dart';
+ import 'package:shared_preferences/shared_preferences.dart';
+ import 'package:flutter_application_1/services/cart_service.dart';
+ import 'package:flutter_application_1/models/cart_item.dart';
+ // ...existing code...
 
 void main() {
   group('CartService Tests', () {
     late CartService cartService;
 
     setUp(() {
-<<<<<<< HEAD
-=======
       TestWidgetsFlutterBinding.ensureInitialized();
       SharedPreferences.setMockInitialValues({});
->>>>>>> 428a6df (updated images final code)
       cartService = CartService();
     });
 
